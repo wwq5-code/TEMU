@@ -1,6 +1,6 @@
-# TEMU
+#
 
-# TEMU: Towards Evaluating Machine Unlearning
+# Towards Evaluating Machine Unlearning
 ## Overview
 This repository is the official implementation of TEMU, and the corresponding paper is under review.
 
@@ -24,7 +24,7 @@ Evaluated on NVIDIA Quadro RTX 6000 GPUs,
 
 On MNIST, ESS=1
 
-| On MNIST             | MIB         | TEMU (CT) | TEMU (AT)   | 
+| On MNIST             | MIB         | EMU (CT) | EMU (AT)   | 
 | --------             | --------    | --------  | -------- |  
 | Model Utility (Acc.) | 98.31%      | 99.23%    | 99.31%   |   
 | Rec. Sim.            | -           | 0.441     |   0.967  |  
@@ -33,7 +33,7 @@ On MNIST, ESS=1
  
 On CIFAR10, ESS=1
 
-| On CIFAR10           | MIB         | TEMU (CT) |   TEMU (AT)   | 
+| On CIFAR10           | MIB         | EMU (CT) |   EMU (AT)   | 
 | --------             | --------    | --------  | -------- |   
 | Model Utility (Acc.) | 79.45%      | 81.34%    | 81.44%   |   
 | Rec. Sim.            | -           | 0.895     | 0.975    |  
@@ -43,19 +43,19 @@ On CIFAR10, ESS=1
 In this table, we can achieve these metric values by running corresponding python files.
 
 
-1. To run the TEMU on MNIST, we can run
+1. To run the EMU on MNIST, we can run
 ```
 python /MUV_Reconstruciton/On_MNIST/Our_method/MUV_on_MNIST_unl_multi.py
 ```
 
-2. To run the TEMU on CIFAR10, we can run
+2. To run the EMU on CIFAR10, we can run
 
 ```
 python /MUV_Reconstruciton/On_CIFAR10/Our_method/MUV_on_CIFAR10_unl_multi.py
 ```
 
 
-3. To run the TEMU on CelebA, we can run
+3. To run the EMU on CelebA, we can run
 
 ```
 python /MUV_Reconstruciton/On_CelebA/Our_method/MUV_on_CelebA_unl_multi.py
